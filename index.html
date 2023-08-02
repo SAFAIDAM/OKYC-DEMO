@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="icon" type="image/x-icon" href="./icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Jost:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a7a4c8c84d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>фокус-3D-agancy</title>
+  </head>
+  <body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <div class="background_1">
+      <header>
+        <div class="main-nav">
+          <a class="logo" href="#"
+            ><img src="./images/main.png" alt="logo"
+          /></a>
+          <!-- <span class="Icon"><img src="./images/menuicon.png" id="menuIcon"></span> -->
+        </div>
+        <div class="cont">
+          <a class="img2" href="#"
+            ><img src="./images/фокусcercle-01.png" alt=""
+          /></a>
+          <h1>
+            The agency that will help you <br />
+            create mainten your future idea
+          </h1>
+          <button class="btn">Join Us</button>
+        </div>
+      </header>
+    </div>
+    <img src="./images/menuicon.svg" id="menuIcon" />
+    <div class="menu-box" id="menuBox">
+      <!-- <div class="menulogo"><img src="./images/menulogo.png" alt=""></div>   -->
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+
+        <li><a href="#Abstact">3D Abstact</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      let menuBox = document.getElementById("menuBox");
+      let menuIcon = document.getElementById("menuIcon");
+
+      menuIcon.onclick = function () {
+        menuBox.classList.toggle("open-menu");
+        if (menuBox.classList.contains("open-menu")) {
+          menuIcon.src = "./images/closeicon.svg";
+        } else {
+          menuIcon.src = "./images/menuicon.svg";
+        }
+      };
+    </script>
+    <div class="txt1">
+      <h4>Brows our recent</h4>
+      <h3>Designs</h3>
+    </div>
+    <div class="cards">
+      <a href="#"
+        ><img src="./images/Rectangle 1.png" alt="" />
+        <button>
+          &nbsp;&nbsp;check out here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+            class="arrow"
+            src="./images/arrow right 9.svg"
+            alt=""
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+        </button></a
+      >
+      <a href="#"
+        ><img src="./images/Rectangle2.png" alt="" />
+        <button>
+          &nbsp;&nbsp;check out here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+            class="arrow"
+            src="./images/arrow right 9.svg"
+            alt=""
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+        </button></a
+      >
+      <a href="#"
+        ><img src="./images/Rectangle3.png" alt="" />
+        <button>
+          &nbsp;&nbsp;check out here&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+            class="arrow"
+            src="./images/arrow right 9.svg"
+            alt=""
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+        </button></a
+      >
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="txt1" id="About">
+      <h4>Get to know more</h4>
+      <h3>About us</h3>
+    </div>
+    <br />
+    <br /><br />
+    <br />
+    <div class="container">
+      <img src="./images/moonlogo.svg" alt="" />
+      <div class="txt3">
+        <p>
+          Our 3D design agency is a company that <br />
+          specializes in creating 3D models, animations, <br />
+          and other digital content for a variety of <br />
+          industries.
+        </p>
+        <br /><button>Read more</button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="txt1" id="Abstact">
+      <h4>Explore our</h4>
+      <h3>Technologies</h3>
+    </div>
+    <br /><br /><br /><br />
+    <div class="verst">
+      <div class="const">
+        <p><img src="./images/check 7.svg" alt="" /> &nbsp;&nbsp; 3D Design</p>
+        <br />
+        <br />
+        <p>
+          <img src="./images/check 7.svg" alt="" /> &nbsp;&nbsp; 3D Abstract
+        </p>
+      </div>
+      <div class="const">
+        <p><img src="./images/check 7.svg" alt="" /> &nbsp;&nbsp; Animations</p>
+        <br />
+        <br />
+        <p><img src="./images/check 7.svg" alt="" /> &nbsp;&nbsp;3D Modling</p>
+      </div>
+      <div class="const">
+        <p><img src="./images/check 7.svg" alt="" /> &nbsp;&nbsp;3D UI/UX</p>
+        <br />
+        <br />
+        <p><img src="./images/check 7.svg" alt="" />&nbsp;&nbsp; 3D websites</p>
+      </div>
+    </div>
+    <div class="txt1" id="Projects">
+      <h3>Projects</h3>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="cards-projects">
+      <div class="card1">
+        <a href="#" target="_blank"
+          ><div class="card_project_one">
+            <img class="img" src="./images/project1.svg" alt="" /> <br />
+            <br /><button  onclick="window.location.href='https:https://www.youmeme.io/'">
+              Youmeme &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img class="img" src="./images/strait arrow.svg" alt="" />
+            </button>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </a>
+        <a href="#" target="_blank"
+          ><div class="card_project_two">
+            <img class="img" src="./images/projects3.svg" alt="" />
+            <br />
+            <br />
+            <button onclick="window.location.href='https://covidpinata.ooo/'">
+              Covidpinata &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="./images/strait arrow.svg" alt="" />
+            </button>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </a>
+      </div>
+      <br />
+      <br />
+      <div class="card2">
+        <a href="#" target="_blank"
+          ><div class="card_project_tree">
+            <img class="img" src="./images/project2.svg" alt="" />
+            <br />
+            <br />
+            <button >
+              Atmos.Ieeroy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img onclick="window.location.href='https://atmos.leeroy.ca/'" src="./images/strait arrow.svg" alt="" />
+            </button>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </a>
+        <a href="#" target="_blank"
+          ><div class="card_project_four">
+            <img class="img" src="./images/project4.svg" alt="" /> <br />
+            <br />
+            <button onclick="window.location.href='https://spacers.wannathis.one//'">
+              Spacers.Wannat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="./images/strait arrow.svg" alt="" />
+            </button>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </a>
+      </div>
+    </div>
+    <div class="card3">
+      <a href="#" target="_blank"
+        ><div class="card_project_five">
+          <img class="img" src="./images/projects5.png" alt="" />
+          <br />
+          <br />
+          <button>
+            TurnFace &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+              src="./images/strait arrow.svg"
+              alt=""
+            />
+          </button>
+        </div>
+      </a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="button">
+      <button type="button">
+        Explore more projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./images/search.svg" alt="" />
+      </button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="background-2">
+      <img src="./images/3dbackground.svg" alt="" />
+      <button class="zindex">
+        Discover our 3D Abstract models &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img class="arrow" src="./images/strait arrow.svg" alt="" />
+      </button>
+    </div>
+    <div class="txt1" id="contact">
+      <h3>Contact</h3>
+    </div>
+    <br />
+    <br />
+    <div class="label">
+      <input type="text" name="" id="input1" placeholder="send message here" />
+      <br />
+      <button>send</button>
+    </div>
+    <div class="footer">
+      <img src="./images/Vector 1.svg" alt="">
+    </div>
+    <footer>
+      <img src="./images/фокусlogoid-logo.svg" alt="" width="300px">
+      <p>фokyc Copyright ©  2023 All right reserved</p>
+      <p  onclick="window.location.href='tirms.html'" class="p1">Termes of services </p>
+      <a href="mailto:fokyc.business@gmail.com" class="p1">фokycbusiness@gmail.com</a>
+    </footer>
+    <p class="p2">SAFA IDAM HAMED © 2023</p>
+    <script src="Demo.js"></script>
+  </body>
+</html>
